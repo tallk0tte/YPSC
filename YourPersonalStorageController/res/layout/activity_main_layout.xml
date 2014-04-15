@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ypsc.classes.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="490dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="The Layout for the buttons"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/addnewdata"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Add Data" />
+
+        <Button
+            android:id="@+id/listdata"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="List Data" />
+
+        <Button
+            android:id="@+id/removedata"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Remove Data" />
+
+    </LinearLayout>
+
+</FrameLayout>
